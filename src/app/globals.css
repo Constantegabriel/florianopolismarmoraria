@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --facebook: #1877F2;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.zoom-active {
+  animation: zoomEffect 10s ease-in-out infinite;
+}
+
+@keyframes zoomEffect {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.10);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.cart-open {
+  animation: slideUp 0.4s ease-out forwards;
+}
+
+.cart-closed {
+  display: none;
+}
+
+.custom-bullet {
+  background-color: #2d3748; /* gray-800 */
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active
+{
+  background-color: #ffffff; /* gray-800 */
+  opacity: 1;
+}
+
+/* Estilizando os botões de navegação */
+.custom-navigation {
+  color: #2d3748; /* gray-800 */
+}
+/* Animação de entrada para o alerta surgir da esquerda para a direita com leve escala */
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%) scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+/* Animação de saída para o alerta deslizar para a esquerda e diminuir a escala */
+@keyframes slide-out-left {
+  from {
+    transform: translateX(0) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%) scale(0.9);
+    opacity: 0;
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in-left 0.5s ease-out forwards;
+}
+
+.animate-slide-out {
+  animation: slide-out-left 0.5s ease-in forwards;
+}
+
+/* Animações de fade-in e fade-out para o modal */
+@keyframes fadeInScale {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutScale {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+}
+
+.animate-modal {
+  animation: fadeInScale 0.3s ease-out forwards;
+}
