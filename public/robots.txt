@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /admin
+Allow: /$
+Sitemap: https://marmorariaflorianopolis.com/sitemap.xml
