@@ -43,7 +43,7 @@ export default function Home() {
             className={`absolute hidden md:flex inset-0 bg-cover bg-center transition-transform duration-1000 ${
               activeIndex === 0 ? "zoom-active" : ""
             }`}
-            style={{ backgroundImage: `url('/img/fachada.jpg')` }}
+            style={{ backgroundImage: `url('/img/fachada1.jpeg')` }}
           ></div>
           <div className="absolute inset-0 bg-gradient-to-r from-black/50 md:from-black/80 to-transparent"></div>
           <div className="absolute bottom-16 left-[5%] lg:left-10 text-left px-4 md:px-10 pb-10 max-w-lg">

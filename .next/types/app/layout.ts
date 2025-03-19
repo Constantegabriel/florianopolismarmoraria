@@ -1,4 +1,4 @@
-// File: /Users/vitorgraca/last-marmo/src/app/layout.tsx
+// File: /home/constante/Documentos/GitHub/new-marm/src/app/layout.tsx
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
