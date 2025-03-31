@@ -26,7 +26,7 @@ export default function Wpp() {
       href="https://wa.me/48998442768"
       target="_blank"
       rel="noopener noreferrer"
-      className={`fixed bottom-6 right-6 z-[1000] bg-green-500 text-white p-3 rounded-full shadow-lg transition-transform duration-500 hover:scale-110 ${
+      className={`fixed bottom-16 right-6 z-[1000] bg-green-500 text-white p-3 rounded-full shadow-lg transition-transform duration-500 hover:scale-110 ${
         animate ? "animate-custom-bounce" : ""
       }`}
       title="Converse conosco no WhatsApp"

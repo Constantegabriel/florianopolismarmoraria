@@ -37,7 +37,7 @@ export default function Navbar() {
         </div>
         <div className="flex text-[13px] md:text-[15px] text-center md:text-left items-center gap-2">
           <FaPhoneAlt />
-          <span>(48) 3238-0505</span>
+          <span>(48) 3243-0000</span>
         </div>
         <div className="flex text-[13px] md:text-[15px] text-center md:text-left items-center gap-2">
           <FaWhatsapp className="text-semibold text-[20px]" />

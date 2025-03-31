@@ -5,8 +5,8 @@ import logo from "../../../public/img/logo_marmo.png";
 export default function Footer() {
   return (
     <>
-    <div className="relative bg-cover bg-center h-[300px]" style={{ backgroundImage: "url('/img/fachada3.jpeg')" }}>
-      <div className="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center">
+    <div className="relative bg-cover bg-center h-[300px]" style={{ backgroundImage: "url('/img/fachada1.jpeg')" }}>
+      <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col items-center justify-center text-center">
         <h2 className="text-2xl md:text-4xl font-bold text-white mb-4">
           Fale conosco agora mesmo!
         </h2>

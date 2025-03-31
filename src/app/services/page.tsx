@@ -172,7 +172,7 @@ export default function Services() {
         <div className="flex flex-col lg:mt-24 px-8 gap-4 mb-4 lg:w-[50%]">
           <div className="relative">
             <Image
-              src="/img/banheiro.jpg"
+              src="/img/banh10.jpg"
               alt="Imagem 1"
               width={500}
               height={300}

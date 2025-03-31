@@ -37,7 +37,7 @@ export default function Home() {
             className={`absolute flex md:hidden inset-0 bg-cover bg-center transition-transform duration-1000 ${
               activeIndex === 0 ? "zoom-active" : ""
             }`}
-            style={{ backgroundImage: `url('/img/fachada3.jpeg')` }}
+            style={{ backgroundImage: `url('/img/fachada11.jpeg')` }}
           ></div>
           <div
             className={`absolute hidden md:flex inset-0 bg-cover bg-center transition-transform duration-1000 ${
@@ -50,7 +50,7 @@ export default function Home() {
             <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-5 text-white">
               Sua Marmoraria em Florianópolis
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-[80%] md:w-[600px] text-[#e7e7e7] font-medium mb-4 sm:mb-6">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-[80%] md:w-[600px] text-[#ffffff] font-medium mb-4 sm:mb-6">
               Oferecemos uma ampla seleção de mármores e granitos nacionais e importados, com acabamento impecável e designs únicos.
             </p>
             <Link href="https://api.whatsapp.com/send?phone=48998442768">
@@ -61,31 +61,37 @@ export default function Home() {
           </div>
         </SwiperSlide>
 
-        {backgroundImage && (
-          <SwiperSlide className="relative flex items-end justify-start h-screen">
-            <div
-              className={`absolute inset-0 bg-cover bg-center transition-transform duration-1000 ${
-                activeIndex === 1 ? "zoom-active" : ""
-              }`}
-              style={{ backgroundImage: `url('${backgroundImage}')` }}
-            ></div>
-            <div className="absolute inset-0 bg-gradient-to-r from-black/50 md:from-black/80 to-transparent"></div>
-            <div className="absolute bottom-16 left-[5%] lg:left-10 text-left px-4 md:px-10 pb-10 max-w-lg">
-              <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-5 text-white">
-                Excelência em Serviços de Marmoraria
-              </h1>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-[80%] md:w-[600px] text-[#e7e7e7] font-medium mb-4 sm:mb-6">
-                Realizamos serviços personalizados e de alta qualidade para transformar cada ambiente em uma obra de arte.
-              </p>
-              <Link href="/services">
-                <button className="px-6 py-2 bg-gray-900 hover:bg-gray-800 border-[1px] border-white rounded-full text-sm md:text-lg font-semibold transition">
-                  Conheça nossos Serviços
-                </button>
-              </Link>
-            </div>
-          </SwiperSlide>
-        )}
 
+        <SwiperSlide className="relative flex items-center justify-start h-screen">
+          <div
+            className={`absolute flex md:hidden inset-0 bg-cover bg-center transition-transform duration-1000 ${
+              activeIndex === 0 ? "zoom-active" : ""
+            }`}
+            style={{ backgroundImage: `url('/img/sala4.jpg')` }}
+          ></div>
+          <div
+            className={`absolute hidden md:flex inset-0 bg-cover bg-center transition-transform duration-1000 ${
+              activeIndex === 0 ? "zoom-active" : ""
+            }`}
+            style={{ backgroundImage: `url('/img/gs1.jpg')` }}
+          ></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/50 md:from-black/80 to-transparent"></div>
+          <div className="absolute bottom-16 left-[5%] lg:left-10 text-left px-4 md:px-10 pb-10 max-w-lg">
+            <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-5 text-white">
+            Excelência nos Serviços
+            </h1>
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-[80%] md:w-[600px] text-[#ffffff] font-medium mb-4 sm:mb-6">
+            Realizamos serviços personalizados e de alta qualidade para transformar cada ambiente em uma obra de arte.
+            </p>
+            <Link href="/services">
+              <button className="px-6 py-2 bg-gray-900 hover:bg-gray-800 border-[1px] border-white rounded-full text-sm md:text-lg font-semibold transition">
+              Conheça nossos Serviços
+              </button>
+            </Link>
+          </div>
+        </SwiperSlide>
+
+ 
         <SwiperSlide className="relative flex items-end justify-start h-screen">
           <div
             className={`absolute flex md:hidden inset-0 bg-cover bg-center transition-transform duration-1000 ${
@@ -104,7 +110,7 @@ export default function Home() {
             <h1 className="text-xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-5 text-white">
               Tecnologia e Profissionalismo
             </h1>
-            <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-[80%] md:w-[600px] text-[#e7e7e7] font-medium mb-4 sm:mb-6">
+            <p className="text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-[80%] md:w-[600px] text-[#ffffff] font-medium mb-4 sm:mb-6">
               Utilizamos os melhores maquinários e contamos com uma equipe altamente qualificada para entregar resultados excepcionais.
             </p>
             <Link href="/enterprise#equipe">
@@ -120,7 +126,7 @@ export default function Home() {
       <div className="bg-white py-16 px-6 md:px-20">
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
           <Image
-            src="/img/fachada.jpg"
+            src="/img/fachada1.jpeg"
             alt="Nossa Fachada"
             width={600}
             height={400}
