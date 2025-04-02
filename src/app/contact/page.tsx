@@ -63,7 +63,7 @@ export default function Contato() {
                 </a>
               </p>
               <p>
-                <strong>Telefone:</strong> (48) 3238-0505
+                <strong>Telefone:</strong> (48) 3243-0000
               </p>
               <p>
                 <strong>WhatsApp:</strong> (48) 99844-2768
