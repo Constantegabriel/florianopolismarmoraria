@@ -82,6 +82,56 @@ export default function Services() {
               <SwiperSlide>
                 <div className="relative w-full h-[400px] md:h-[600px]">
                   <Image
+                    src="/img/servico14.webp"
+                    alt="Cozinha Planejada 2"
+                    layout="fill"
+                    className="object-cover"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="relative w-full h-[400px] md:h-[600px]">
+                  <Image
+                    src="/img/coz2.jpg"
+                    alt="Cozinha Planejada 2"
+                    layout="fill"
+                    className="object-cover"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="relative w-full h-[400px] md:h-[600px]">
+                  <Image
+                    src="/img/coz2.jpg"
+                    alt="Cozinha Planejada 2"
+                    layout="fill"
+                    className="object-cover"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="relative w-full h-[400px] md:h-[600px]">
+                  <Image
+                    src="/img/coz2.jpg"
+                    alt="Cozinha Planejada 2"
+                    layout="fill"
+                    className="object-cover"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="relative w-full h-[400px] md:h-[600px]">
+                  <Image
+                    src="/img/coz2.jpg"
+                    alt="Cozinha Planejada 2"
+                    layout="fill"
+                    className="object-cover"
+                  />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="relative w-full h-[400px] md:h-[600px]">
+                  <Image
                     src="/img/coz2.jpg"
                     alt="Cozinha Planejada 2"
                     layout="fill"

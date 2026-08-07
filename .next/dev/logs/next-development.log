@@ -1,15 +1,8 @@
-[00:00:03.372] Server  LOG     
-[00:00:03.373] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:03.373] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:03.374] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:03.375] Server  LOG     
-[00:00:03.375] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:03.375] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:03.376] Server  LOG     
-[00:00:03.979] Server  LOG      ✓ Ready in 2.8s
-[00:00:10.823] Server  LOG      ○ Compiling / ...
-[00:00:16.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:17.172] Browser WARN    Image with src "/_next/static/media/logo_marmo.a22b3902.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:17.819] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/img/logo.png" "received" null
+[00:00:02.025] Server  LOG      ✓ Ready in 1445ms
+[00:00:17.753] Server  LOG      ○ Compiling / ...
+[00:00:19.068] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.744] Browser WARN    Image with src "/_next/static/media/logo_marmo.a22b3902.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:20.177] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/img/logo.png" "received" null
+[00:28:13.094] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:13.111] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/img/logo.png" "received" null
+[00:28:13.365] Browser WARN    Image with src "/_next/static/media/logo_marmo.a22b3902.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
